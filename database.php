@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: Sadie
+ * User: Sadie Sweetman
  * Date: 8/31/2018
  * Time: 7:45 AM
  * This file establishes and destroys the connection with the database
