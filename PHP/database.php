@@ -8,7 +8,7 @@
  */
 
 class DatabaseConnection {
-    private $host = "cpsc4910.cotds3lejpsm.us-east-2.rds.amazonaws.com"; //hostname of database server
+    private $host = "gooddriverdb.cotds3lejpsm.us-east-2.rds.amazonaws.com"; //hostname of database server
     private $user = "cpsc4910"; //username to access the database
     private $password = "cpsc4910"; //password to access the database
     private $dbname = "GoodDriverDB"; //name of database
