@@ -1,0 +1,13 @@
+<application>
+  <component name="MessDetector">
+    <phpmd_settings_migrated />
+  </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings_migrated />
+  </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="C:\xampp\php\php.ini" id="debd6be0-596f-4f98-a1ae-599517ab9ad9" name="PHP" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
+</application>
