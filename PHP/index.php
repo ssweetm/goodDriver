@@ -9,7 +9,7 @@
  * Date: 8/31/2018
  * Time: 8:52 AM
  */
-include_once "../PHP?database.php";
+include_once "../PHP/database.php";
 include_once "../PHP/navbar.php";
 $db = new DatabaseConnection();
 $user = (empty($_SESSION['username'])) ? "" : $db->connection->real_escape_string($_SESSION['username']);
