@@ -1,0 +1,95 @@
+table.points {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    font-family: Arial, sans-serif;
+    background: grey;
+    border-collapse: collapse;
+}
+
+caption.points {
+    border: 1px solid black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background: deepskyblue;
+}
+th.points {
+    text-align: left;
+    padding: 8px;
+    color: black;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+td.points {
+    text-align: left;
+    padding: 8px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+div.profile {
+    position: absolute;
+    top: 25%;
+    left: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 65%;
+    width: 20%;
+    background: grey;
+}
+
+table.driver {
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background: white;
+}
+
+th.driver {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+td.driver {
+    text-align: center;
+    padding: 8px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+div.products {
+    position: absolute;
+    top: 25%;
+    right: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 65%;
+    width: 20%;
+}
+
+table.products {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td.products {
+    padding: 8px;
+}
+
+h1.products {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: deepskyblue;
+    margin-top: 0;
+    color: white;
+}
