@@ -1,0 +1,19 @@
+div.products {
+    position: absolute;
+    top: 25%;
+    right: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 65%;
+    width: 20%;
+}
+
+div.bg {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+

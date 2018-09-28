@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .flex-container {
+            display: flex;
+            height: 500px;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: right;
+            color: white;
+            padding: 0px;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #3A394F;
+            padding: 30px;
+            text-align: left;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Container for flexboxes */
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        /* Style the navigation menu */
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #1E2126;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Style the content */
+        article {
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            padding: 10px;
+            background-image: url("../ASSETS/RedTruck.jpg");
+            background-repeat: no-repeat;
+            background-position: right top;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #3A394F;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Cities</h2>
+</header>
+
+<section>
+    <nav>
+        <ul>
+            <li><a href="#">London</a></li>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Tokyo</a></li>
+        </ul>
+    </nav>
+    <article>
+        <body>
+        <h1>Points that follow wherever the road takes you.</h1>
+        </body>
+        
+        <div class = flex-container></div>
+        
+    </article>
+</section>
+
+<footer>
+    <p>© 2018 Good Driver. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
