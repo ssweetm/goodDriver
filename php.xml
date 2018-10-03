@@ -5,4 +5,9 @@
   <component name="PhpCodeSniffer">
     <phpcs_settings_migrated />
   </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="C:\xampp\php\php.ini" id="b938fd40-15e6-4473-bb00-5d40a78a26cc" name="PHP" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
 </application>
