@@ -3,7 +3,9 @@
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\btodo\b.*" />
-    <pattern pattern="\bfixme\b.*" />
+    <filter name="@Sadie">
+      <pattern index="1" />
+      <pattern index="0" />
+    </filter>
   </component>
 </application>
